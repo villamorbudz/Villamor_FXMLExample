@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?language javascript?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="275.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.villamor_fxmlexample.FXMLExampleController">
+   <children>
+      <Button fx:id="logOutBtn" layoutX="14.0" layoutY="104.0" mnemonicParsing="false" onAction="#logOut" prefHeight="34.0" prefWidth="114.0" text="Log Out" />
+      <ColorPicker fx:id="cpPicker" layoutX="14.0" layoutY="45.0" />
+   </children>
+</AnchorPane>
